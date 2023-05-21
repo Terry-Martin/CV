@@ -219,12 +219,23 @@
                 </ul>
             </div>
         </div>
-
     </footer>
+
+    <script>
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 3,
+                center: {
+                    lat: 43.619261,
+                    lng: -33.134766
+                }
+            });
+        }
+    </script>
     <script
         src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE&callback=initMap"></script>
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9O54TkyqInN0yMzSI2raMhFoG_8JcxdE&callback=initMap"></script>
     <script src="assets/js/maps.js"></script>
 </body>
 
